@@ -14,6 +14,7 @@ public class EvenOddArray {
   public static void evenOdd(List<Integer> A) {
 
     int nextEven = 0, nextOdd = A.size() - 1;
+    //Loop starts
     while (nextEven < nextOdd) {
       if (A.get(nextEven) % 2 == 0) {
         nextEven++;
